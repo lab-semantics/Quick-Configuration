@@ -165,6 +165,8 @@ MatMul: /job:localhost/replica:0/task:0/device:GPU:0
 ```
 chekc the tensorflow wibsite https://www.tensorflow.org/guide/using_gpu
 
+## Tested on Nvidia Geforce GTX 1080 Ti
+
 ### Reference
 
 * https://websiteforstudents.com/install-proprietary-nvidia-gpu-drivers-on-ubuntu-16-04-17-10-18-04/
