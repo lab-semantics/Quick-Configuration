@@ -139,7 +139,7 @@ finally install tensorflow gpu by issuing following command
 pip3 install --upgrade tensorflow-gpu
 ```
 run the following code to check tensorflow is using gpu or not
-```bash
+```python
 import tensorflow as tf
 
 # Creates a graph.
@@ -152,7 +152,7 @@ sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
 print(sess.run(c))
 ```
 You should see the following output:
-```language
+```python
 Device mapping:
 /job:localhost/replica:0/task:0/device:GPU:0 -> device: 0, name: Tesla K40c, pci bus
 id: 0000:05:00.0
