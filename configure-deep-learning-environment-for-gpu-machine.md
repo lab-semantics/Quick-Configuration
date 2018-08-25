@@ -18,6 +18,7 @@ Execute the below command to install Nvidia graphics driver on your system.
 ```bash
 sudo apt update
 sudo apt install nvidia-390
+sudo init 6
 ```
 ## Step 3 - Verify Nvidia Driver
 After installation reboot your system, So that your desktop load the new Nvidia driver. Now run below command to check Nvidia module.
