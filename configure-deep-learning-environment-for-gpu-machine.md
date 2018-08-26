@@ -31,7 +31,7 @@ lsmod | grep nvidia
 
 ## Step 4 - Nvidia driver
 The first we should check is that we have an Nvidia driver installed for our graphics card.we can check what graphics driver we have installed with thenvidia-smicommand. we should see some output like the following:
-![](nvidia-smi.png)
+![](https://github.com/lab-semantics/Quick-Configuration/blob/master/img/nvidia-driver-test.png)
 The driver version we have installed is near the top left next to `NVIDIA-SMI`. I’ve got `nvidia-390.67` installed.
 
 ## Step 5 - CUDA Toolkit 9.0
