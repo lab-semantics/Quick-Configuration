@@ -1,5 +1,11 @@
 # Setup DeepLearning development environment
 
+## Step 0 - Tensorflow, CUDA, cuDNN Nvidia graphivs deriver version Build Configuration. 
+Check comptable version of these to each other
+
+Check out table : https://www.tensorflow.org/install/source#tested_build_configurations
+
+
 ## Step 1 - Remove Old Nvidia Driver
 
 The first step is to purge currently installed Nvidia drivers so that it does not conflict with the newer versions.
