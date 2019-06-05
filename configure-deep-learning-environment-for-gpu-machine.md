@@ -14,8 +14,7 @@ The first step is to purge currently installed Nvidia drivers so that it does no
 sudo apt-get purge nvidia*
 ```
 ## Step 2 - Install Latest Nvidia Driver
-
-Now enable the graphics-drivers PPA to your system. Currently, it supports `Ubuntu 18.04 LTS, 17.10, 17.04, 16.04 LTS, and 14.04 LTS` operating systems. Keep in mind that its still under testing phase.
+Check out nvidia unix driver archrive: https://www.nvidia.com/object/unix.html also check which drive version support your graphics card.Now enable the graphics-drivers PPA to your system. Currently, it supports `Ubuntu 18.04 LTS, 17.10, 17.04, 16.04 LTS, and 14.04 LTS` operating systems. Keep in mind that its still under testing phase.
 
 ```bash
 sudo add-apt-repository ppa:graphics-drivers/ppa
