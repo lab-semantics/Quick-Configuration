@@ -1,5 +1,8 @@
 # Setup DeepLearning development environment
 
+## Step -1 :
+[Check GPU deep learning performance comparison](https://lambdalabs.com/blog/2080-ti-deep-learning-benchmarks/)
+
 ## Step 0 - Tensorflow, CUDA, cuDNN Nvidia graphivs deriver version Build Configuration. 
 Check comptable version of these to each other
 
